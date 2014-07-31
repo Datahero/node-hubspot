@@ -1,0 +1,20 @@
+{
+  "name": "node-hubspot",
+  "version": "0.0.1",
+  "description": "A node.js wrapper for the Hubspot API.",
+  "author": {
+    "name": "Jeff Zabel",
+    "company": "Datahero, Inc.",
+    "email": "jeff@datahero.com"
+  },
+  "license": "MIT",
+  "main": "./lib/hubspot",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Datahero/node-hubspot.git"
+  },
+  "dependencies": {
+    "querystring": "^0.2.0",
+    "request": "2.x.x"
+  }
+}
