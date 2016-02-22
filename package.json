@@ -1,6 +1,6 @@
 {
   "name": "node-hubspot",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "A node.js wrapper for the Hubspot API.",
   "author": {
     "name": "Jeff Zabel",
