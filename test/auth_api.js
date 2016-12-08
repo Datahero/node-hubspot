@@ -21,9 +21,6 @@ try {
   console.error(error.message); // the options are missing, this function throws an error.
 }
 
-
-
-
 describe('check "createOrUpdateTimelineEvent" method', function (done) {
 
   it('should refresh access token and make call "createOrUpdateTimelineEvent" method', function (done) {
