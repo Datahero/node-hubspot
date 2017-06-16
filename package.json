@@ -1,6 +1,6 @@
 {
   "name": "node-hubspot",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "A node.js wrapper for the Hubspot API.",
   "author": {
     "name": "Jeff Zabel",
@@ -13,9 +13,16 @@
     "type": "git",
     "url": "https://github.com/Datahero/node-hubspot.git"
   },
+  "scripts": {
+    "test": "mocha ./test"
+  },
   "dependencies": {
+    "chai": "^3.5.0",
+    "lodash": "3.6.0",
+    "mocha": "^3.2.0",
+    "moment": "^2.18.1",
     "querystring": "^0.2.0",
     "request": "2.x.x",
-    "lodash": "3.6.0"
+    "sinon": "^1.17.6"
   }
 }
